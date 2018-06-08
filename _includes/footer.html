@@ -1,28 +1,48 @@
-<footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
-  <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
+<footer class="site-footer">
 
-  <!-- <div class="wrapper">
+  <div class="site-copy">&copy; {{ site.time | date: '%Y' }}<span class="site-author">{{ site.author }}</span></div>
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+  <div class="site-links">
+    <div class="site-contact">
+      <ul>
+        {% if site.email %}
+        <li><a href="mailto:{{ site.email }}">Contact</a></li>
+        {% endif %}
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {% endif %}
-        </ul>
-      </div>
+        {% if site.github_username %}
+        <li><a target="_blank" rel="external" href="https://github.com/{{ site.github_username }}">Github</a></li>
+        {% endif %}
 
-      <div class="footer-col footer-col-2">
-        {% include social.html %}
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description | escape }}</p>
-      </div>
+        {% if site.twitter_username %}
+        <li><a target="_blank" rel="external" href="https://twitter.com/{{ site.twitter_username }}">Twitter</a></li>
+        {% endif %}
+      </ul>
     </div>
 
-  </div> -->
+    <div class="site-source">
+      <ul>
+        <li><a target="_blank" href="https://github.com/{{ site.github_username }}/{{ site.github_source }}">Source</a></li>
+      </ul>
+    </div>
+  </div>
+
 </footer>
+<!-- site-footer -->
+
+{% if page.syntax %}
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/syntax.css">
+{% endif %}
+
+<script src="{{ site.baseurl }}/assets/js/main.js"></script>
+
+{% if site.google_analytics %}
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','{{ site.baseurl }}/assets/js/analytics.js','ga');
+
+  ga('create', '{{ site.google_analytics }}', 'auto');
+  ga('send', 'pageview');
+</script>
+{% endif %}
