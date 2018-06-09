@@ -20,13 +20,13 @@
 }
 
 .site-logo {
-  width: 5rem;
-  height: 5rem;
+  width: 3rem;
+  height: 3rem;
 }
 
 .site-nav {
   display: flex;
-  justify-content: right;
+  justify-content: center;
   font-family: "Lato", serif;
   font-size: 1.1rem;
 }
@@ -78,8 +78,8 @@
 @include mq-up(md) {
   .site-logo {
     margin-left: $spacer0;
-    width: 5.5rem;
-    height: 5.5rem;
+    width: 3.5rem;
+    height: 3.5rem;
   }
 
   .site-nav {
