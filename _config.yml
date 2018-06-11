@@ -2,7 +2,8 @@
 
 # Site settings
 title: K              # used for the html title of every page
-desc: > ML/DL/DGM/NLP
+desc: >
+  Coming soon
 
 url: http://kwj2104.github.io      # put your website hosting url here
 baseurl: ''                 # the subpath of your site, e.g. /blog
