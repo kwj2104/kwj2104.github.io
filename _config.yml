@@ -58,3 +58,5 @@ exclude:
   - vendor
 gems:
   - jekyll-paginate
+plugins:
+  - jekyll-feed
