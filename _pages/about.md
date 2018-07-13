@@ -17,7 +17,7 @@ permalink: /about/
 </figure>
 {:/}
 
-Hello! I'm Kevin Jiang, an amateur data science and ML enthusiast. My main areas of technical interest are generative deep learning models, embedded electronics, and digital fabrication.
+Hello! I'm Kevin Jiang, an amateur programmer, tinkerer, and ML enthusiast. My main areas of technical interest are generative deep learning models, embedded electronics, and digital fabrication.
 
 In the past I've had a [winding career](https://www.linkedin.com/in/kevin-jiang-27780147/) as a software developer, economic analyst, and corporate lawyer. I am currently residing in NYC, and spending time at the [Recurse Center](https://www.recurse.com/).    
 
