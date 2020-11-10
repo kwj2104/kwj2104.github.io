@@ -3,8 +3,8 @@ layout: default
 ---
 
 <div class="lead pretty-links">
-  Hi! I'm Kevin, and I'm interested in algorithms that teaching machines to emulate the creative and constructive capabilities of humans.
+  Hi! Welcome to my blog.
 
-  This site is a collection of thoughts, ideas, and projects related to **machine learning, natural language processing, and deep generative models**.  
+  This site is a collection of thoughts, ideas, and projects related to **natural language processing, generative models, and other creative applications of technology**.  
 
 </div>
