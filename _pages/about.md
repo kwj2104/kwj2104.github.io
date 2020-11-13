@@ -17,9 +17,11 @@ permalink: /about/
 </figure>
 {:/}
 
-Hello! I'm Kevin Jiang, an amateur programmer, tinkerer, and ML enthusiast. My main areas of technical interest are generative deep learning models, embedded electronics, and digital fabrication.
+Hello! I'm Kevin, an amateur programmer, tinkerer and technology enthusiast. My main areas of technical interest are generative deep learning models, digital fabrication, and cloud devops technologies.
 
-In the past I've had an [ecoectic career](https://www.linkedin.com/in/kevin-jiang-27780147/) as a software developer, economic analyst, corporate lawyer, and management consultant. I've also spent time at the amazing  [Recurse Center](https://www.recurse.com/).
+In the past I've had an [eclectic career](https://www.linkedin.com/in/kevin-jiang-27780147/) as a software developer, economic analyst, corporate lawyer, and management consultant. I've also spent time at the amazing  [Recurse Center](https://www.recurse.com/).
+
+Feel free to get in touch at *kwj2104 [at] gmail.com*. 
 
 ---
 
