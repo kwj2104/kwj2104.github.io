@@ -4,6 +4,7 @@ desc: Going beyond textual inputs
 comments: false
 layout: default
 ---
+*Note: i built a webapp around an image captioning model as demoed later in the blog post. I wish I could release the app to allow others to try it but given the current closed nature of OpenAI GPT3 keys, the limitations on token usages for the private beta users, and the process one has to go through to release anything to public, for now I have decided to keep the app private.*
 
 ## Experimenting with GPT3 Part I - Image captioning
 
